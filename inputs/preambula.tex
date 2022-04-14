@@ -1,0 +1,38 @@
+\documentclass[oneside,final,14pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{vmargin}
+\setpapersize{A5}
+\setmarginsrb{2cm}{1.5cm}{1cm}{1.5cm}{0pt}{0mm}{0pt}{13mm}
+\usepackage{indentfirst}
+\setlength\parindent{1.25cm}
+
+% шрифт Times New Roman
+\usepackage{tempora}
+\usepackage{newtxmath}
+
+% межстрочный интервал
+\usepackage[onehalfspacing]{setspace}
+
+% Для вставки рисунокв
+\usepackage{graphicx}
+
+% Для библиографии
+\usepackage[backend=biber]{biblatex}
+\addbibresource{lit.bib}
+
+% Центрирование названий секций
+\usepackage{sectsty}
+\sectionfont{\centering}
+
+% Сдвинуть номер страницы
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\thepage}
+
+
+\sloppy
