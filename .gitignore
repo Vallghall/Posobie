@@ -8,3 +8,4 @@
 *.bcf
 *.blg
 *.run.xml
+.DS_Store
