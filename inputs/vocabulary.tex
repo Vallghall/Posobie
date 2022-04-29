@@ -1,0 +1,24 @@
+\newcommand\use[1]{\input{inputs/vocabulary_terms/#1.tex}}
+\newcommand\row[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
+\section*{\MakeUppercase{Словарь терминов СКС}}
+
+\begin{longtable}[c]{|p{3cm}|p{3cm}|p{4cm}|}
+    \hline
+    {\bf Английские} & {\bf Русские термины} & {\bf Толкование}\\
+    {\bf термины} & {} & {}\\
+    \hline
+    \row{Access floor}{Фальшпол}{access_floor}
+    \row{Active equipment}{Активное оборудование}{active_equipment}
+    \row{Adapter}{Адаптер}{adapter_1}
+    \row{}{Соединитель}{adapter_2}
+    \row{Administration}{Администрирование}{administration}
+    \row{Aerial cable}{Воздушный кабель}{aerial_cable}
+    \row{Air blown fiber}{Пневматическая прокладка волокна}{air_blown_fiber}
+    \row{Alien crosstalk}{Межкабельные наводки}{alien_crosstalk}
+    \row{Alternate entrance}{Резервный вход}{alternate_entrance}
+    \row{Antenna entrance}{Антенный вход}{antenna_entrance}
+    \row{Application}{Приложение}{application}
+    \row{Array connector}{Многоволоконный разъем}{array_connector}
+    \row{Attenuation}{Затухание}{attenuation}
+    \row{Attenuation crosstalk ratio (ACR)}{Отношение затухания к двунаправленным (перекрестным) наводкам}{acr}
+\end{longtable}

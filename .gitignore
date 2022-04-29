@@ -9,3 +9,5 @@
 *.blg
 *.run.xml
 .DS_Store
+
+settings.json

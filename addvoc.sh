@@ -1,0 +1,1 @@
+touch ./inputs/vocabulary_terms/$1.tex
