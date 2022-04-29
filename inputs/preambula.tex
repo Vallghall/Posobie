@@ -1,4 +1,4 @@
-\documentclass[oneside,final,14pt]{article}
+\documentclass[oneside,final,18pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english, russian]{babel}
 \usepackage{vmargin}
@@ -16,6 +16,8 @@
 
 % Для вставки рисунокв
 \usepackage{graphicx}
+\usepackage[labelsep=endash]{caption}
+\addto\captionsrussian{\renewcommand{\figurename}{Figure}}
 
 % Центрирование названий секций
 \usepackage{sectsty}
@@ -29,6 +31,9 @@
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[R]{\thepage}
+
+% Рамка вокруг текста
+\usepackage{framed}
 
 
 \sloppy
