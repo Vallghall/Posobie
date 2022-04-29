@@ -1,5 +1,6 @@
 \newcommand\use[1]{\input{inputs/vocabulary_terms/#1.tex}}
 \newcommand\row[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
+\newcommand\rowit[4]{{#1 \textit{#2}} & {#3} & {\use{#4}}\\ \hline}
 \section*{\MakeUppercase{Словарь терминов СКС}}
 
 \begin{longtable}[c]{|p{3cm}|p{3cm}|p{4cm}|}
@@ -21,4 +22,21 @@
     \row{Array connector}{Многоволоконный разъем}{array_connector}
     \row{Attenuation}{Затухание}{attenuation}
     \row{Attenuation crosstalk ratio (ACR)}{Отношение затухания к двунаправленным (перекрестным) наводкам}{acr}
+    \row{Backbone}{Магистраль}{backbone}
+    \rowit{Backbone bonding conductor}{синоним -- telecommunications bonding backbone}{Телекоммуника-ционная магистраль заземления}{backbone_bonding}
+    \row{Backbone cable}{Магистральный кабель}{backbone_cable}
+    \row{Backbone pathway (raceway)}{Магистральный кабелепровод}{backbone_pathway}
+    \row{Backward compatibility}{Совместимость категорий}{backward}
+    \row{Balanced cable}{Симметричный кабель}{balanced_cable}
+    \row{Balanced transmission}{Сбалансированная передача}{balanced_transmission}
+    \row{Balun (balanced-unbalanced)}{Волновой адаптер}{balun}
+    \row{Bandwidth}{Полоса пропускания}{bandwidth}
+    \row{Basic link}{Базовая линия}{basic}
+    \row{Bonding}{Соединение}{bonding}
+    \row{Bonding conductor for telecommunications}{Соединяющий проводник телекоммуникаций}{bondingcond}
+    \row{Building backbone cable}{Кабель магистрали здания}{building_bbc}
+    \rowit{Building distributor}{(международный стандарт)}{Распределительный пункт здания}{building_dist}
+    \row{Building entrance facility}{Пункт ввода в здание}{building_entrance}
+    \row{Bundle}{Связка}{bundle}
+    \row{Bus architecture}{Шинная архитектура}{bus}
 \end{longtable}
