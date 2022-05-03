@@ -1,6 +1,6 @@
 \newcommand\use[1]{\input{inputs/vocabulary_terms/#1.tex}}
 \newcommand\row[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
-\newcommand\rowNoLine[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
+\newcommand\rowNoLine[3]{{#1} & {#2} & {\use{#3}}\\}
 \newcommand\rowit[4]{{#1 \textit{#2}} & {#3} & {\use{#4}}\\ \hline}
 \section*{\MakeUppercase{Словарь терминов СКС}}
 
@@ -63,8 +63,8 @@
     \row{Component compability}{Совместимость элементов}{component}
     \row{Conduit}{Трубопровод}{conduit}
     \row{Connecting hardware}{Разъемные элементы}{connecting_h}
-    \row{Connector}{Разъем}{connector_1}
-    \rowNoLine{}{Коннектор}{connector_2}
+    \rowNoLine{Connector}{Разъем}{connector_1}
+    \row{}{Коннектор}{connector_2}
     \row{Consolidation pont}{Точка консолидации}{consolidation}
     \row{Cord, telecommunications}{Соединительный кабель}{cord}
     \rowit{CP cable}{(проект международного стандарта)}{Переходный кабель}{cp_cable}
@@ -84,7 +84,22 @@
     \row{Distribution frame, DF}{Кросс}{df}
     \row{Distributor}{Распределительный пункт}{distributor}
     \row{Dual fibre cable}{Двухволоконный оптический кабель}{dual}
-    \row{Duct}{Кабельный канал}{duct_1}
-    \rowNoLine{}{Воздухопровод}{duct_2}
+    \rowNoLine{Duct}{Кабельный канал}{duct_1}
+    \row{}{Воздухопровод}{duct_2}
+
+
+    \row{Effective ground}{Эффективное заземление}{effective}
+    \row{Electrical closet}{Электрощитовая}{electrical_closet}
+    \row{Electromagnetic compatibility (EMC)}{Электромагнитная совместимость (ЭМС)}{emc}
+    \row{Equal Level Far End Crosstalk (ELFEXT)}{Отношение затухания к однонаправленным наводкам}{elfext}
+    \row{Entrance facility}{Ввод в здание}{entrance_f}
+    \row{Entrance point}{Точка ввода}{entrance_p}
+    \row{Entrance room or space for telecommunicaton}{Помещение ввода телекоммуникаций}{entrance_r}
+    \row{Equipment cable}{Сетевой кабель}{equip_c}
+    \row{Equipment room}{Комната для оборудования, аппаратная}{equip_r}
+    \row{Ethernet}{{Ethernet, ""Эзернет""}}{ethernet}
+    \row{Euromod}{Евромод}{euromod}
+    \row{Exotermic weld}{Экзотермическая сварка}{exotermic}
+
 
 \end{longtable}
