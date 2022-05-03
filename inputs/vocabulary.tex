@@ -1,5 +1,6 @@
 \newcommand\use[1]{\input{inputs/vocabulary_terms/#1.tex}}
 \newcommand\row[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
+\newcommand\rowNoLine[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
 \newcommand\rowit[4]{{#1 \textit{#2}} & {#3} & {\use{#4}}\\ \hline}
 \section*{\MakeUppercase{Словарь терминов СКС}}
 
@@ -8,6 +9,7 @@
     {\bf Английские} & {\bf Русские термины} & {\bf Толкование}\\
     {\bf термины} & {} & {}\\
     \hline
+
     \row{Access floor}{Фальшпол}{access_floor}
     \row{Active equipment}{Активное оборудование}{active_equipment}
     \row{Adapter}{Адаптер}{adapter_1}
@@ -22,6 +24,8 @@
     \row{Array connector}{Многоволоконный разъем}{array_connector}
     \row{Attenuation}{Затухание}{attenuation}
     \row{Attenuation crosstalk ratio (ACR)}{Отношение затухания к двунаправленным (перекрестным) наводкам}{acr}
+
+
     \row{Backbone}{Магистраль}{backbone}
     \rowit{Backbone bonding conductor}{синоним -- telecommunications bonding backbone}{Телекоммуника-ционная магистраль заземления}{backbone_bonding}
     \row{Backbone cable}{Магистральный кабель}{backbone_cable}
@@ -39,4 +43,37 @@
     \row{Building entrance facility}{Пункт ввода в здание}{building_entrance}
     \row{Bundle}{Связка}{bundle}
     \row{Bus architecture}{Шинная архитектура}{bus}
+
+
+    \row{Cabinet}{Шкаф}{cabinet}
+    \row{Cable}{Кабель}{cable}
+    \row{Cable element}{Кабельный элемент}{cable_e}
+    \row{Cable unit}{Кабельная единица, сборка}{cable_u}
+    \row{Cabling}{Кабельная система}{cabling}
+    \row{Cabling system certification}{Сертификация СКС}{csc}
+    \row{Campus}{Комплекс зданий}{campus}
+    \row{Campus backbone}{Магистраль комплекса}{campus_bb}
+    \row{Campus distributor}{Распределительный пункт комплекса}{campus_d}
+    \rowit{Category}{(американский стандарт)}{Категория}{category}
+    \row{Ceiling distribution system}{Система потолочной прокладки}{cds}
+    \row{Channel}{Канал}{channel}
+    \rowit{Class}{(международный стандарт)}{Класс}{class}
+    \row{Collapsed backbone}{Абонентская магистраль}{collapsed}
+    \row{Commercial building}{Коммерческое здание}{commercial}
+    \row{Component compability}{Совместимость элементов}{component}
+    \row{Conduit}{Трубопровод}{conduit}
+    \row{Connecting hardware}{Разъемные элементы}{connecting_h}
+    \row{Connector}{Разъем}{connector_1}
+    \rowNoLine{}{Коннектор}{connector_2}
+    \row{Consolidation pont}{Точка консолидации}{consolidation}
+    \row{Cord, telecommunications}{Соединительный кабель}{cord}
+    \rowit{CP cable}{(проект международного стандарта)}{Переходный кабель}{cp_cable}
+    \row{Cross connect}{Коммутационный пункт}{cross_connect}
+    \row{Cross connection}{Коммутируемое подключение}{cross_connection}
+    \row{Cross connect panels}{Коммутационные панели}{cross_con_p}
+    \row{Crossover}{Пересечение}{crossover}
+    \row{Crossover adapter}{Перекрестный адаптер}{crossover_a}
+    \row{Crossover cable}{Перекрестный кабель}{crossover_c}
+    \rowit{Cut down}{синноним - punch down}{Врезка}{cut_down}
+    
 \end{longtable}
