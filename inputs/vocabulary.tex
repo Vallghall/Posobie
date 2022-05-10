@@ -2,6 +2,7 @@
 \newcommand\row[3]{{#1} & {#2} & {\use{#3}}\\ \hline}
 \newcommand\rowNoLine[3]{{#1} & {#2} & {\use{#3}}\\}
 \newcommand\rowit[4]{{#1 \textit{#2}} & {#3} & {\use{#4}}\\ \hline}
+\newcommand\rowitNoLine[4]{{#1 \textit{#2}} & {#3} & {\use{#4}}\\}
 \section*{\MakeUppercase{Словарь терминов СКС}}
 
 \begin{longtable}[c]{|p{3cm}|p{3cm}|p{4cm}|}
@@ -119,5 +120,20 @@
     \row{Horizontal cabling}{Горизонтальная подсистема}{hori_cabling}
     \rowit{Horizontal cross connect}{(ам. стандарт)}{Пункт коммутации горизонтальной подсистемы}{hori_x}
     \row{Hybrid cable}{Гибридный кабель}{hybrid}
+    \row{Identifier}{Обозначение, идентификатор}{id}
+    \row{Impedance}{Волновое сопротивление, импеданс}{im}
+    \row{In-conduit}{В канализации}{in}
+    \row{Individual work area}{Персональная рабочая область}{ind}
+    \row{Insulation displacement contact(IDC)}{Врезной контакт, контакт сквозь изоляцию (КСИ)}{ins}
+    \row{Integrated Services Digital Network (ISDN)}{Цифровая сеть с интеграцией служб (ЦСИС)}{isdn}
+    \row{Interbuilding cable}{Кабель между зданиями, внешний кабель}{inter_c}
+    \row{Interbuilding cable entrance}{Ввод кабеля в здание}{inter_ce}
+    \rowit{Interbuilding cabling}{межд. стандарт}{Кабельная система между зданиями}{inter_cing}
+    \rowit{Interconnect}{международный стандарт}{Подключение}{inter_con}
+    \row{Interconnect panel}{Соединительная панель}{inter_con_p}
+    \rowitNoLine{Interconnection}{американский стандарт}{Соединение}{interconnection}
+    \row{}{Подключение}{interconnection2}
+    \row{Interface}{Интерфейс}{interface}
+    \rowit{Intermediate cross connect}{американский стандарт}{Промежуточный коммутационный пункт}{icc}
 
 \end{longtable}
